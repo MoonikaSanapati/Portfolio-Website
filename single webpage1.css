@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(115, 35, 114);
+}
+.navbar-brand:hover{
+    color: rgb(67, 13, 48);
+}
+.nav-link{
+    margin-right: 9px;
+    margin-left: 9px;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'M PLUS 1p', sans-serif;
+    border: 2px solid rgb(115, 35, 114);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(115, 35, 114);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(./imgs/tiny2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+    width: 100%;
+}
+.main h1{
+    font-family: cursive;
+    
+    color: rgb(115, 35, 114);
+
+}
+.main h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #640d70;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(117, 30, 97);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.new{
+    background-color: aliceblue;
+}
+
+.new img{
+    height: 50px;
+    width: 50px;
+}
+
+.albums{
+    background: url(https://i.pinimg.com/originals/dd/07/88/dd0788d13f9ebae8c5b3aa89330bd4d8.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+    width: 100%;
+}
+.btn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #C8B6FF;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    transition: 4s;
+
+}
+.card:hover{
+    box-shadow: 16px 4px 11px 1px rgba(0,0,0,0.64);
+-webkit-box-shadow: 16px 4px 11px 1px rgba(0,0,0,0.64);
+-moz-box-shadow: 16px 4px 11px 1px rgba(0,0,0,0.64);
+transition: 0.5s;
+}
+.about{
+    background: url(https://wallpapercave.com/wp/wp7129838.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+    width: 100%;
+}
+.about img{
+    height:325px;
+    width: 500px;
+
+}
+.about-text{
+    width: 550px;
+
+}
+.bts{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: rgb(117, 30, 97);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn3{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #C8B6FF;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+}
+
+.merch{
+    background-color: #f2ebfb;
+}
+.merch img{
+    height: 200px;
+    width: 200px;
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+.btn4{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
